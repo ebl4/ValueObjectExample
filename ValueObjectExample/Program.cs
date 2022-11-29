@@ -8,4 +8,5 @@ Address addressTwo = new Address("Rua Henrique Dias", "Pesqueira", "Pernambuco",
 Console.WriteLine(EqualityComparer<Address>.Default.Equals(addressOne, addressTwo));
 Console.WriteLine(object.Equals(addressOne, addressTwo));
 Console.WriteLine(addressOne.Equals(addressTwo));
-Console.WriteLine(addressOne == addressTwo); // False
+Console.WriteLine(addressOne == addressTwo); // True
+Console.WriteLine(addressOne != addressTwo); // False
